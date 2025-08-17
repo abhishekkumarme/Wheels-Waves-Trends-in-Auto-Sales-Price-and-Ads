@@ -49,3 +49,15 @@ The project uses the **Historical Automobile Sales dataset** from IBM Developer 
 ```bash
 git clone <repository-url>
 cd <project-folder>
+
+2. Create a virtual environment:
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+
+3. Install dependencies:
+pip install -r requirements.txt
+
+Running the Dashboard Locally
+python app.py
+
